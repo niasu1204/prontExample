@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>table 2</title>
+	<style>
+		table,
+		th,
+		td {
+			border: 1px solid #ccc;
+		}
+
+		td {
+			width: 100px;
+			/* 셀 너비 */
+			height: 30px;
+			/* 셀 높이 */
+		}
+	</style>
+</head>
+
+<body>
+	<table><!-- 2줄 4칸 -->
+		<colgroup>
+			<col><!--스타일 없음 -->
+			<col style="background-color: mediumslateblue;">
+			<col style="background-color: blueviolet;">
+		</colgroup>
+		<tr>
+			test
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>
+				<table>
+					<tr>
+						<td>1-1</td>
+					</tr>
+					<tr>
+						<td>2-1</td>
+					</tr>
+				</table>
+
+			</td>
+		</tr>
+		<tr>
+			test
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td><img src="../image/cat.jpg" alt="고양이" title="cat"></td>
+		</tr>
+
+	</table>
+
+
+</body>
+
+</html>
